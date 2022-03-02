@@ -1,2 +1,2 @@
-#!/bin/bash
-mv my_first_directory /tmp/
+#!/bin/bash/
+cp -r my_first_directory /tmp

@@ -1,22 +1,20 @@
 | Files       | Description |
 | ----------- | ----------- |
-| 0-current_working_directory      | Script that prints the absolute path name of the current working directory.    |
-| 1-listit      | Script that display the contents list of your current directory.    |
-| 2-bring_me_home | Script that changes the working directory to the user’s home directory. |
-| 3-listfiles | Script that display current directory contents in a long format. |
-| 4-listmorefiles | Script that display current directory contents, including hidden files (starting with .). |
-| 5-listfilesdigitonly | Script that display current directory contents. |
-| 6-firstdirectory | Script that creates a directory named my_first_directory in the /tmp/ directory. |
-| 7-movethatfile | Script that moves the file betty from /tmp/ to /tmp/my_first_directory. |
-| 8-firstdelete | Script that deletes the file betty |
-| 9-firstdirdeletion | Script that delete the directory my_first_directory that is in the /tmp directory. |
-| 10-back | Script that changes the working directory to the previous one. |
-| 11-lists | Script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format. |
-| 12-file_type | Script that prints the type of the file named iamafile. |
-| 13-symbolic_link | Script that creates a symbolic link to /bin/ls, named __ls__. |
-| 14-copy_html | Script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory. |
-| 100-lets_move | Script that moves all files beginning with an uppercase letter to the directory /tmp/u. |
-| 101-clean_emacs | Script that deletes all files in the current working directory that end with the character ~. |
-| 102-tree | Script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory. |
-| 103-commas | Script that lists all the files and directories of the current directory, separated by commas (,). |
-| school.mgc | A magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0. |
+| 0-iam_betty      | Script that switches the current user to the user betty.   |
+| 1-who_am_i   | Script that prints the effective username of the current user.    |
+| 2-groups | Script that prints all the groups the current user is part of. |
+| 3-new_owner | Script that changes the owner of the file hello to the user betty. |
+| 4-empty | Script that  creates an empty file called hello. |
+|  5-execute | Script that adds execute permission to the owner of the file hello. |
+| 6-multiple_permissions | Script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello. |
+| 7-everybody | Script that  adds execution permission to the owner, the group owner and the other users, to the file hello. |
+| 8-James_Bond | Script that sets the permission to the file hello. |
+| 9-John_Doe | Script that sets the mode of the file hello to this: `-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello.` |
+| 10-mirror_permissions | Script that sets the mode of the file hello the same as olleh’s mode. |
+| 11-directories_permissions | Script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed. |
+| 12-directory_permissions | Script that creates a directory called my_dir with permissions 751 in the working directory. |
+| 13-change_group | Script that changes the group owner to school for the file hello. |
+| 100-change_owner_and_group | Script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory. |
+| 101-symbolic_link_permissions | Script that changes the owner and the group owner of _hello to vincent and staff respectively. |
+| 102-if_only | Script that changes the owner of the file hello to betty only if it is owned by the user guillaume. |
+| 103-Star_Wars | Script that will play the StarWars IV episode in the terminal. |
